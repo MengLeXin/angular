@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title:string = 'angular';
+  txt:string;
+  arr:number[]=[1,2,3,4,5];
+  fun(e){
+    this.title = 'hello angular';
+    if(e.keyCode==13){
+      //this.arr.push(this.txt)//这句话会报错，
+    };
+  }
+  del(idx:number){
+    this.arr.splice(idx,1);
+  }
 }
