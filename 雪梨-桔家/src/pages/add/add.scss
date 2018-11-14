@@ -1,0 +1,24 @@
+page-add {
+    ion-content{
+        background-color: yellow!important;
+    }
+    .bgImage{
+        width: 50%;
+        float: left;
+        // border: 1px solid red;
+        font-size: 40px;
+        text-align: center;
+        background-image: url('../assets/imgs/add-2.png');
+        background-repeat: no-repeat;  
+        background-size: 50%;
+        background-position:center top;
+    }
+    #main{
+        padding-top:150px;
+    }
+    ion-footer{
+        text-align: center;
+        font-size:40px;
+        padding-bottom: 20px;
+    }
+}

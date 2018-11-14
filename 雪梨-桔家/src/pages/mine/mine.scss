@@ -1,0 +1,37 @@
+page-mine {
+    h3{
+        position: absolute;
+        top:24%;
+        left: 35%;
+    }
+    #people{
+        font-size: 100px;
+        position: absolute;
+        left: 170px;
+        top: 80px;
+    }
+    span{
+        position: absolute;
+        right: 30px;
+    }
+    #one div{
+        width: 33.3%;
+        float: left;
+        border: 1px solid #eeeeee;
+        text-align:center;
+        background-color: white;
+        padding-top:40px; 
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+    .two div{
+        width: 50%;
+        float: left;
+         border: 1px solid #eeeeee;
+        text-align:center;
+        background-color: white;
+        padding-top:40px; 
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+}
